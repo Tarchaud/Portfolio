@@ -5,16 +5,16 @@ export const projectsFr = [
       technologies: 'Angular, Java, SpringBoot, Docker, MongoDB',
       images: [
           {
-              title:'',
-              src: "assets/images/voyages.webp",
+              title:'liste des items',
+              src: "assets/images/pfe/pfe_liste_items.png",
           },
           {
-              title:'',
-              src:"assets/images/voyage.webp",
+              title:'formulaire de création de page d\'équipement',
+              src: "assets/images/pfe/pfe_form_build.png",
           },
           {
-              title:'',
-              src: "assets/images/logements.webp",
+              title:'page d\'équipement créée',
+              src: "assets/images/pfe/pfe_page_build.png",
           },
       ],
       url: "https://github.com/Tarchaud/PFE",
@@ -28,17 +28,9 @@ export const projectsFr = [
         technologies: 'angular, Docker, Kafka, Postgres, WebSocket, Python, fastapi',
         images: [
             {
-                title:'',
-                src: "assets/images/voyages.webp",
-            },
-            {
-                title:'',
-                src:"assets/images/voyage.webp",
-            },
-            {
-                title:'',
-                src: "assets/images/logements.webp",
-            },
+                title:'carte de tracking GPS',
+                src: "assets/images/kafka/kafka_map.png",
+            }
         ],
         url: "https://github.com/Tarchaud/TrackingGPS_Kafka",
         detail:"L'application est un simulateur de tracking GPS en temps réel qui permet de simuler des déplacements de 2 personnes sur une carte. Les données sont envoyées à un serveur Kafka qui les stocke dans une base de données Postgres. Les données sont ensuite récupérées par un client WebSocket qui les affiche sur une carte.",
@@ -51,21 +43,13 @@ export const projectsFr = [
         technologies: 'C',
         images: [
             {
-                title:'Compagnes de marketing',
-                src:   "assets/images/compagnes.jpg",
+                title:'début de la partie',
+                src: "assets/images/blackjack/blackjack_1.png",
             },
             {
-                title:'Détail de la compagne',
-                src :"assets/images/compagne-detail.jpg",
-            },
-            {
-                title:"Performance d'un émail",
-                src: "assets/images/email-detail.jpg",
-            },
-            {
-                title:"Performance d'un Asset",
-                src: "assets/images/asset-detail.jpg"
-            },
+                title:'fin de manche',
+                src: "assets/images/blackjack/blackjack_2.png",
+            }
 
         ],
         url:'https://github.com/Tarchaud/BlackJack_TP',
@@ -79,45 +63,18 @@ export const projectsFr = [
       technologies: 'Angular, firebase',
       images: [
           {
-              title:'Pokedex',
-              src:   "assets/images/pokedex.png",
+              title:'liste des évènements',
+              src: "assets/images/cyfeast/cyfeast.png",
           },
           {
-              title:'Trainers',
-              src :"assets/images/trainers.png",
-          },
-          {
-              title:"Profile",
-              src: "assets/images/profile-trainer.png",
+              title:'gestion des stocks',
+              src: "assets/images/cyfeast/cyfeast_stock.png",
           },
       ],
       url:'https://cytech-cloud.web.app/',
       detail:"Cyfeast est une application web qui permet de voir les évènements, de s'inscrire à ces évènements, gerer les évènements et les stocks. L'application est codée en Angular et utilise Firebase pour la base de données et le déploiment.",
       codeSourceUrl:'https://cytech-cloud.web.app/',
       detailIsDisplayed: false,
-    },
-    {
-        id:"pokedex",
-        name: "Pokedex",
-        technologies: 'Java, J2EE, SpringBoot, TDD, MySQL, BootStrap, Services, Deploiment',
-        images: [
-            {
-                title:'Pokedex',
-                src:   "assets/images/pokedex.png",
-            },
-            {
-                title:'Trainers',
-                src :"assets/images/trainers.png",
-            },
-            {
-                title:"Profile",
-                src: "assets/images/profile-trainer.png",
-            },
-        ],
-        url:'#portfolio',
-        detail:"<p>Affichage du détail des pokémons et de leurs drésseurs.</p> <p>L'application contient deux micro-service: pokemon management et trainer management, qui exposent un canal de communication REST/JSON.<br>Le 3éme micro-service WEB-UI se connecte aux deux micro-service.</p>",
-        codeSourceUrl:'https://github.com/ifi-2019/trainer-ui-zinedineBenkhider',
-        detailIsDisplayed: false,
     },
 ];
 

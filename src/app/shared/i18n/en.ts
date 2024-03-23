@@ -58,13 +58,14 @@ export const locale = {
             'about': 'About',
             'skills': 'Skills',
             'references': 'References',
+            'projects': 'Projects',
             'contactMe': 'Contact me',
         },
         'home': {
             'iAmDeveloper': 'I am developer',
         },
         'projects': {
-            'title': 'Portfolio',
+            'title': 'Projects',
             'projectDetail':'Project detail',
             'sourceCode':'Source code',
         },

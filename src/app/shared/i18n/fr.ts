@@ -3,7 +3,7 @@ export const locale = {
     data: {
         'about': {
             'title': 'A propos',
-            'jobTitle': "Développeur d'applications web et mobiles",
+            'jobTitle': "Développeur Full-Stack",
             'introductionOfMe': "Intéressé par les nouvelles technologies et méthodes de travail. J'aime proposer des idées qui permettent d'améliorer les processus d'affaires.",
             'passionateAboutDevelopment':' Passionné par le développement',
             'mobility': 'Mobile dans toute la France',
@@ -58,8 +58,9 @@ export const locale = {
             'about': 'A propos',
             'skills': 'Compétences',
             'references': 'Recommandations',
+            'projects': 'Projets',
             'contactMe': 'Me Contacter',
-            
+
         },
         'home': {
             'iAmDeveloper': 'Je suis développeur',

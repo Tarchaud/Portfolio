@@ -35,8 +35,7 @@ export class ProjectsComponent implements OnInit {
     this.onMouse("pfe-link", "pfe-img");
     this.onMouse("TrackingGPS_Kafka-link", "TrackingGPS_Kafka-img");
     this.onMouse("blackjack-link", "blackjack-img");
-    this.onMouse("pokedex-link", "pokedex-img");
-    this.onMouse("riddle-link", "riddle-img");
+    this.onMouse("cyfeast-link", "cyfeast-img");
     this.venobox = $('.venobox');
     this.venobox.venobox();
   }
