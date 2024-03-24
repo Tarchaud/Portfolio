@@ -7,19 +7,14 @@
                 <h4><strong>{{'education.eductionTitle' | translate}}</strong></h4>
                 <ul class="timeline">
                     <li>
-                        <h5>{{'education.masterDegreeTwo' | translate}}</h5>
-                        <em class="font-italic">{{'education.masterDegreeTwoDesc' | translate}}<br> {{'education.university' | translate}}</em>
-                        <p class="year p-2 d-flex justify-content-center">2019 - 2020</p>
+                        <h5>{{'education.cytech' | translate}}</h5>
+                        <em class="font-italic">{{'education.cytechDesc' | translate}}<br> {{'education.cytechUniversity' | translate}}</em>
+                        <p class="year p-2 d-flex justify-content-center">2021 - 2024</p>
                     </li>
                     <li>
-                        <h5>{{'education.masterDegreeOne' | translate}}</h5>
-                        <em class="font-italic">{{'education.masterDegreeOneDesc' | translate}} <br> {{'education.university' | translate}}</em>
-                        <p class="year p-2 d-flex justify-content-center">2018 - 2019</p>
-                    </li>
-                    <li>
-                        <h5>{{'education.bachlorDegree' | translate}}</h5>
-                        <em class="font-italic">{{'education.bachlorDegreeDesc' | translate}}<br> {{'education.university' | translate}}</em>
-                        <p class="year p-2 d-flex justify-content-center">2015 - 2018</p>
+                        <h5>{{'education.prepa' | translate}}</h5>
+                        <em class="font-italic">{{'education.prepaDesc' | translate}} <br> {{'education.prepaUniversity' | translate}}</em>
+                        <p class="year p-2 d-flex justify-content-center">2019 - 2021</p>
                     </li>
                 </ul>
             </div>
@@ -37,7 +32,7 @@
                         </div>
                         <p *ngIf="experience.detailIsDisplayed">
                             <span *ngFor="let mission of experience.missions;let index = index">
-                                <strong>{{'education.mission' | translate}} {{index+1}}: </strong>{{mission}} <br>
+                                <strong>{{'education.mission' | translate}} : </strong>{{mission}} <br>
                             </span>
                             <strong>{{'education.technologies' | translate}}:</strong> {{experience.technologies}}
                         </p>
@@ -65,12 +60,12 @@
                         <h4><strong>{{'education.centerOfInterest' | translate}}</strong></h4>
                         <div class="noProgress langue">
                             <span>
-                                <fa-icon [icon]="volleyBallIcon"></fa-icon><strong> {{'education.sport' | translate}}</strong> <i class="val"> 5 {{'education.years' | translate}}
-                                    Volley Ball</i>
+                                <fa-icon [icon]="runningIcon"></fa-icon><strong> {{'education.sport' | translate}}</strong> <i class="val">
+                                  {{'education.sportDesc' | translate}} </i>
                             </span>
                         </div>
 
-                        <div class="noProgress langue">
+                        <!-- <div class="noProgress langue">
                             <span>
                                 <fa-icon [icon]="planeIcon"></fa-icon><strong> {{'education.trips' | translate}}</strong> <i class="val">
                                     {{'education.tripsCountries' | translate}} </i>
@@ -81,7 +76,7 @@
                                 <fa-icon [icon]="gameIcon"></fa-icon><strong> {{'education.boardGames' | translate}} </strong> <i class="val">
                                     {{'education.boardGamesPlayed' | translate}} </i>
                             </span>
-                        </div>
+                        </div> -->
                     </div>
                 </div>
             </div>
