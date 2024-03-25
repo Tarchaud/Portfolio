@@ -56,6 +56,10 @@ img{
     width: 100px;
 }
 
+.form-group{
+  margin-bottom: 10px;
+}
+
 
 .div_img {
   margin: 20px;
