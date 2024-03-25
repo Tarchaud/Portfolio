@@ -58,23 +58,23 @@ export const projectsFr = [
         detailIsDisplayed: false,
     },
     {
-      id:"cyfeast",
-      name: "Cy-Events",
-      technologies: 'Angular, firebase',
-      images: [
-          {
-              title:'liste des évènements',
-              src: "assets/images/cyfeast/cyfeast.png",
-          },
-          {
-              title:'gestion des stocks',
-              src: "assets/images/cyfeast/cyfeast_stock.png",
-          },
-      ],
-      url:'https://cytech-cloud.web.app/',
-      detail:"Cyfeast est une application web qui permet de voir les évènements, de s'inscrire à ces évènements, gerer les évènements et les stocks. L'application est codée en Angular et utilise Firebase pour la base de données et le déploiment.",
-      codeSourceUrl:'https://cytech-cloud.web.app/',
-      detailIsDisplayed: false,
+        id:"cyfeast",
+        name: "Cy-Events",
+        technologies: 'Angular, firebase',
+        images: [
+            {
+                title:'liste des évènements',
+                src: "assets/images/cyfeast/cyfeast.png",
+            },
+            {
+                title:'gestion des stocks',
+                src: "assets/images/cyfeast/cyfeast_stock.png",
+            },
+        ],
+        url:'https://cytech-cloud.web.app/',
+        detail:"Cyfeast est une application web qui permet de voir les évènements, de s'inscrire à ces évènements, gerer les évènements et les stocks. L'application est codée en Angular et utilise Firebase pour la base de données et le déploiment.",
+        codeSourceUrl:'https://github.com/Tarchaud/CY2023-feast-Front',
+        detailIsDisplayed: false,
     },
 ];
 

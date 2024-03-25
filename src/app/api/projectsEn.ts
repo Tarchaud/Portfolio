@@ -73,7 +73,7 @@ export const projectsEn = [
     ],
     "url": "https://cytech-cloud.web.app/",
     "detail": "Cyfeast is a web application that allows you to view events, register for these events, manage events and stocks. The application is coded in Angular and uses Firebase for the database and deployment.",
-    "codeSourceUrl": "https://cytech-cloud.web.app/",
+    "codeSourceUrl": "https://github.com/Tarchaud/CY2023-feast-Front",
     "detailIsDisplayed": false
   }
 ];
