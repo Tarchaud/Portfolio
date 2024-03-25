@@ -56,7 +56,7 @@ img{
     width: 100px;
 }
 
-.form-group{
+.form-group, .mar_bot{
   margin-bottom: 10px;
 }
 
