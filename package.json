@@ -1,15 +1,14 @@
 {
-  "name": "my-portfolio",
+  "name": "portfolio",
   "version": "0.0.0",
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
     "build": "ng build",
-    "build_deploy": "ng build --base-href=/my-portfolio/",
+    "build_deploy": "ng build --base-href=/portfolio/",
     "test": "ng test",
     "lint": "ng lint",
-    "e2e": "ng e2e",
-    "deploy": "ng b --prod --base-href https://zinedineBenkhider.github.io/portfolio/ && npx ngh --dir=dist/my-portfolio"
+    "e2e": "ng e2e"
   },
   "private": true,
   "dependencies": {
