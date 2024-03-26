@@ -5,6 +5,7 @@ body{
 .contact{
     /* padding: 4%; */
     height: 400px;
+    margin-right: 10px;
 }
 
 .col-md-3{
