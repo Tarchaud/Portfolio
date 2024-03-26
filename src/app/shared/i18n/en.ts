@@ -32,7 +32,7 @@ export const locale = {
             'experiencesTitle': 'Experiences',
             'centerOfInterest': 'Center of interest',
             'sport': 'Sport',
-            'sportDesc': 'Course à pied, Trail',
+            'sportDesc': 'Running, Trail Running',
             'trips': 'Trips',
             'boardGames': 'Board games',
             'languages': 'Languages',
