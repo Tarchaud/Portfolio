@@ -11,3 +11,7 @@
   .footer p{
       margin: 10px 0px ;
   }
+
+.fix {
+  height: 20px;
+}
