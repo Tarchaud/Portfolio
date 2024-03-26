@@ -3,7 +3,7 @@ body{
 }
 
 .contact{
-    padding: 4%;
+    /* padding: 4%; */
     height: 400px;
 }
 
@@ -55,6 +55,7 @@ h3,h4{
 img{
     width: 100px;
 }
+
 
 .form-group, .mar_bot{
   margin-bottom: 10px;
