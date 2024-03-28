@@ -8,7 +8,7 @@
                 <div id="skillgraph">
                     <div class='row skill-row' *ngFor="let technologie of skills.technologies;">
                         <div class="label d-flex flex-row width_img">
-                          <img [src]="'assets/skill/' + technologie.name" [alt]="technologie.name" width="60" height="60"/>
+                          <img [src]="'assets/skill/' + technologie.name" [alt]="technologie.alt" width="60" height="60"/>
                         </div>
                     </div>
                 </div>
@@ -18,7 +18,7 @@
                 <div id="skillgraph" class="panel panel-default">
                     <div class='row skill-row' *ngFor="let tool of skills.tools;">
                         <div class="label d-flex flex-row width_img">
-                          <img [src]="'assets/skill/' + tool.name" [alt]="tool.name" width="60" height="60"/>
+                          <img [src]="'assets/skill/' + tool.name" [alt]="tool.alt" width="60" height="60"/>
                         </div>
                     </div>
                 </div>
