@@ -11,19 +11,27 @@ import { locale as french } from '../shared/i18n/fr';
 export class SkillsComponent implements OnInit {
   skills:any={
     technologies:[
-      {name:"NodeJS, ExpressJS"},
-      {name:"JavaScript, Typescript" },
-      {name:"MySql, MongoDB"},
-      {name:"Angular"},
-      {name:"Java, J2EE, Spring"},
-      {name:"Python, C"},
-      {name:"PHP, HTML, CSS"},
+      {name:"nodejs-original-wordmark.svg"},
+      {name:"javascript-original.svg" },
+      {name:"mongodb-original.svg"},
+      {name:"angular-original.svg"},
+      {name:"java-original-wordmark.svg"},
+      {name:"spring-original-wordmark.svg"},
+      {name:"python-original.svg"},
+      {name:"c-original.svg"},
+      {name:"php-original.svg"},
+      {name:"html5-original.svg"},
+      {name:"css3-plain-wordmark.svg"},
     ],
 
     tools:[
-      {name:"Git, Github"},
-      {name:"Docker"},
-      {name:"Linux"},
+      {name:"vscode-original.svg"},
+      {name:"postman-original.svg"},
+      {name:"docker-original.svg"},
+      {name :"nginx-original.svg"},
+      {name:"git-original-wordmark.svg"},
+      {name:"github-original-wordmark.svg"},
+      {name:"linux-original.svg"},
     ],
   };
 

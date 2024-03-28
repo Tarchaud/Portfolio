@@ -6,7 +6,10 @@
 }
 
 #skillgraph {
-  padding: 1em; 
+  padding: 1em;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
 }
 
 .skill-percent{
@@ -34,7 +37,7 @@
 }
 
 .skillData-Wrapper, .label {
-  width: 100%; 
+  width: 100%;
 }
 
 .skillData, .skillData-Wrapper {
@@ -42,7 +45,7 @@
   height: 12px;
   float: left;
   color: white;
-  text-align: center; 
+  text-align: center;
 }
 
 .excellent{
@@ -73,3 +76,7 @@ a{
 
 
 
+.width_img{
+  width: 100px;
+  margin: 5px;
+}

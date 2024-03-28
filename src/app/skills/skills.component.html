@@ -7,8 +7,8 @@
                 <h5 class="h5"><strong>{{'skills.technologies' | translate}}</strong></h5>
                 <div id="skillgraph">
                     <div class='row skill-row' *ngFor="let technologie of skills.technologies;">
-                        <div class="label d-flex flex-row">
-                            <span class="skillLabel">{{technologie.name}}</span>
+                        <div class="label d-flex flex-row width_img">
+                          <img [src]="'assets/skill/' + technologie.name" [alt]="technologie.name" width="60" height="60"/>
                         </div>
                     </div>
                 </div>
@@ -17,8 +17,8 @@
                 <h5 class="h5"><strong>{{'skills.tools' | translate}}</strong></h5>
                 <div id="skillgraph" class="panel panel-default">
                     <div class='row skill-row' *ngFor="let tool of skills.tools;">
-                        <div class="label d-flex flex-row">
-                            <span class='skillLabel'>{{tool.name}}</span>
+                        <div class="label d-flex flex-row width_img">
+                          <img [src]="'assets/skill/' + tool.name" [alt]="tool.name" width="60" height="60"/>
                         </div>
                     </div>
                 </div>
