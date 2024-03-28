@@ -9,10 +9,14 @@ nav{
     background-color: #212529;
 }
 
+.nav-link {
+  color : white !important;
+}
+
 i{
   font-size: 24px;
   padding-right: 6px;
-  color: #6f7180;
+  color: #ffffff;
 }
 
 .nav-home:hover{
@@ -39,3 +43,6 @@ li{
 }
 
 
+.menu-burger{
+  color: #fff !important;
+}
