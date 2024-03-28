@@ -1418,7 +1418,7 @@ function SkillsComponent_div_14_Template(rf, ctx) { if (rf & 1) {
 } if (rf & 2) {
     const technologie_r2 = ctx.$implicit;
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](2);
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("src", "assets/skill/" + technologie_r2.name, _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵsanitizeUrl"])("alt", technologie_r2.name);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("src", "assets/skill/" + technologie_r2.name, _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵsanitizeUrl"])("alt", technologie_r2.alt);
 } }
 function SkillsComponent_div_21_Template(rf, ctx) { if (rf & 1) {
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "div", 10);
@@ -1429,33 +1429,33 @@ function SkillsComponent_div_21_Template(rf, ctx) { if (rf & 1) {
 } if (rf & 2) {
     const tool_r3 = ctx.$implicit;
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](2);
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("src", "assets/skill/" + tool_r3.name, _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵsanitizeUrl"])("alt", tool_r3.name);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("src", "assets/skill/" + tool_r3.name, _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵsanitizeUrl"])("alt", tool_r3.alt);
 } }
 class SkillsComponent {
     constructor(_translationLoaderService) {
         this._translationLoaderService = _translationLoaderService;
         this.skills = {
             technologies: [
-                { name: "nodejs-original-wordmark.svg" },
-                { name: "javascript-original.svg" },
-                { name: "mongodb-original.svg" },
-                { name: "angular-original.svg" },
-                { name: "java-original-wordmark.svg" },
-                { name: "spring-original-wordmark.svg" },
-                { name: "python-original.svg" },
-                { name: "c-original.svg" },
-                { name: "php-original.svg" },
-                { name: "html5-original.svg" },
-                { name: "css3-plain-wordmark.svg" },
+                { name: "nodejs-original-wordmark.svg", alt: "NodeJS" },
+                { name: "javascript-original.svg", alt: "JavaScript" },
+                { name: "mongodb-original.svg", alt: "MongoDB" },
+                { name: "angular-original.svg", alt: "Angular" },
+                { name: "java-original-wordmark.svg", alt: "Java" },
+                { name: "spring-original-wordmark.svg", alt: "Spring" },
+                { name: "python-original.svg", alt: "Python" },
+                { name: "c-original.svg", alt: "C" },
+                { name: "php-original.svg", alt: "PHP" },
+                { name: "html5-original.svg", alt: "HTML5" },
+                { name: "css3-plain-wordmark.svg", alt: "CSS3" },
             ],
             tools: [
-                { name: "vscode-original.svg" },
-                { name: "postman-original.svg" },
-                { name: "docker-original.svg" },
-                { name: "nginx-original.svg" },
-                { name: "git-original-wordmark.svg" },
-                { name: "github-original-wordmark.svg" },
-                { name: "linux-original.svg" },
+                { name: "vscode-original.svg", alt: "VS Code" },
+                { name: "postman-original.svg", alt: "Postman" },
+                { name: "docker-original.svg", alt: "Docker" },
+                { name: "nginx-original.svg", alt: "Nginx" },
+                { name: "git-original-wordmark.svg", alt: "Git" },
+                { name: "github-original-wordmark.svg", alt: "GitHub" },
+                { name: "linux-original.svg", alt: "Linux" },
             ],
         };
         this._translationLoaderService.loadTranslations(_shared_i18n_en__WEBPACK_IMPORTED_MODULE_1__["locale"], _shared_i18n_fr__WEBPACK_IMPORTED_MODULE_2__["locale"]);
