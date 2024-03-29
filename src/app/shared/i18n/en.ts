@@ -42,9 +42,9 @@ export const locale = {
             'english': 'English',
             'prepa': 'Preparatory Class',
             'prepaDesc': 'Preparatory class for prestigious schools',
-            'prepaUniversity': 'Daudet High School, Nîmes FR',
+            'prepaUniversity': 'Lycée Daudet, Nîmes FR',
             'cytech': 'Computer Engineering Master',
-            'cytechDesc': 'Computer engineering master cycle',
+            'cytechDesc': 'Currently in last year, option: Cloud Computing',
             'cytechUniversity': 'CY-Tech, Pau FR',
 
             'mission':'Mission',

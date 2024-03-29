@@ -44,7 +44,7 @@ export const locale = {
             'prepaDesc' : 'Classe préparatoire aux grandes écoles',
             'prepaUniversity': 'Lycée Daudet, Nîmes FR',
             'cytech' : 'Master Ingénieur Informatique',
-            'cytechDesc' : 'Cycle ingénieur en informatique',
+            'cytechDesc' : 'Actuellement en dernière année, option : Cloud Computing',
             'cytechUniversity': 'CY-Tech, Pau FR',
 
 
